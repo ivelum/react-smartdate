@@ -36,7 +36,7 @@ You can pass date in ISO format:
 var React = require("react");
 var Smartdate = require("react-smartdate");
 
-var d = "2015-10-09T17:30:12.000Z";
+var d = "2015-10-09T17:30:12Z";
 
 React.render(<Smartdate date={d} />, document.getElementById("myApp"));
 ```
