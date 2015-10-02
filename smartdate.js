@@ -7,6 +7,7 @@ module.exports = React.createClass({
 	render: function() {
 		var config = smartdate.config,
 			date = this.props.date,
+            mode = this.props.mode,
 			props;
 
 		if (typeof date === 'string') {
@@ -16,7 +17,8 @@ module.exports = React.createClass({
         props = {
             className: config.className,
             title: date.toLocaleString(),
-            'data-timestamp': parseInt(date.getTime() / 1000)
+            'data-timestamp': parseInt(date.getTime() / 1000),
+            'data-mode': typeof mode === 'undefined' ? 'auto' : mode
         };
 
 		return React.createElement(

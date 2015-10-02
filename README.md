@@ -19,6 +19,17 @@ var d = new Date();
 React.render(<Smartdate date={d} />, document.getElementById("myApp"));
 ```
 
+You can pass mode (see smartdate documentation):
+
+```js
+var React = require("react");
+var Smartdate = require("react-smartdate");
+
+var d = new Date();
+
+React.render(<Smartdate date={d} mode="datetime" />, document.getElementById("myApp"));
+```
+
 You can pass date in ISO format:
 
 ```js
