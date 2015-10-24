@@ -1,6 +1,6 @@
 {
   "name": "react-smartdate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A react component for smartdate",
   "keywords": [
     "react-component",
@@ -22,7 +22,7 @@
     "url": "https://github.com/ivelum/react-smartdate/issues"
   },
   "dependencies": {
-    "react": "^0.13.3",
+    "react": "^0.14.0",
     "smartdate": "^0.9.0"
   },
   "devDependencies": {
